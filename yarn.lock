@@ -1521,10 +1521,25 @@
     "@portabletext/toolkit" "^1.0.5"
     "@portabletext/types" "^1.0.3"
 
+"@portabletext/react@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-2.0.1.tgz#0505ea15e2b19645b498e01a25212dd38fc3ee38"
+  integrity sha512-8uWtQKVkWBqxOuuXe7mULB15u7qVT1/Ys59SDSslrM1aXUhzzWQT68eDkdPd8+upbBvplFygAhZKkNCLDejYfQ==
+  dependencies:
+    "@portabletext/toolkit" "^2.0.0"
+    "@portabletext/types" "^2.0.0"
+
 "@portabletext/toolkit@^1.0.5":
   version "1.0.8"
   resolved "https://registry.npmjs.org/@portabletext/toolkit/-/toolkit-1.0.8.tgz"
   integrity sha512-SNO8at5crqySCeYa19/mdcZoZvGCINGc/eAX4FwYt02cEzb48hf013BuA9LbEQuTOgpMKxnyeRGpEzxmowmEug==
+  dependencies:
+    "@portabletext/types" "^2.0.0"
+
+"@portabletext/toolkit@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@portabletext/toolkit/-/toolkit-2.0.1.tgz#ce1f6a27b19e6bb2e36ffcb39c5e05b09d55e9dc"
+  integrity sha512-vr2SeDFUFV+VmRIyYsHBMimZLiiN0S7qIridt/YLJs3Wm1dI4jsfUam82AQwheSMjvWdBiBZ+Wsjq5HZBG4htw==
   dependencies:
     "@portabletext/types" "^2.0.0"
 
@@ -1690,7 +1705,7 @@
 
 "@sanity/image-url@^1.0.2":
   version "1.0.2"
-  resolved "https://registry.npmjs.org/@sanity/image-url/-/image-url-1.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.2.tgz#1ff7259e9bad6bfca4169f21c53a4123f6ac78c3"
   integrity sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==
 
 "@sanity/import@3.2.5":
@@ -4611,9 +4626,9 @@ natural-compare-lite@^1.4.0:
   resolved "https://registry.npmjs.org/natural-compare-lite/-/natural-compare-lite-1.4.0.tgz"
   integrity sha512-Tj+HTDSJJKaZnfiuw+iaF9skdPpTo2GtEly5JHnWV/hfv2Qj/9RKsGISQtLh2ox3l5EAGw487hnBee0sIJ6v2g==
 
-next-sanity@4.1.2:
+next-sanity@^4.1.2:
   version "4.1.2"
-  resolved "https://registry.npmjs.org/next-sanity/-/next-sanity-4.1.2.tgz"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-4.1.2.tgz#e40c1186207d1a215587896df9ac8735cd73c04e"
   integrity sha512-Em7AB7Ghjf1kiGBUXN0MuNHPZkaG/jM+u/LGURU71lamML5CjckGlHnuIztV65P52PoJRcgTEYWBwh3YlTNQPw==
   dependencies:
     "@sanity/client" "^4"
