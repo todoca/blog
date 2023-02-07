@@ -1,5 +1,4 @@
-import { Image, Slug } from "sanity";
-
+import { Slug, Image } from "sanity";
 type Base = {
   _createdAt: string;
   _id: string;
